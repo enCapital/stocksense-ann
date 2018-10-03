@@ -18,10 +18,11 @@ module.exports = {
     },
     module: {
         rules: [{
-            // Include ts, tsx, and js files.
-            test: /\.(tsx?)|(js)$/,
-            exclude: /node_modules/,
-            loader: 'babel-loader',
-        }],
+                // Include ts, tsx, and js files.
+                test: /\.(tsx?)|(js)$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+            }
+        ], 
     }
 };
